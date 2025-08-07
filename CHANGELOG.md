@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`0918c66`](https://github.com/stdlib-js/stdlib/commit/0918c6689d3193257d47a9cf736083e8d8e301e0) - **chore:** fix copyright years _(by Philipp Burckhardt)_
 -   [`ca13482`](https://github.com/stdlib-js/stdlib/commit/ca1348266c2bb7e78fe6dce4ae48629265d5ebdd) - **feat:** add `math/base/assert/is-negative-integerf` _(by Philipp Burckhardt)_
 
 </details>

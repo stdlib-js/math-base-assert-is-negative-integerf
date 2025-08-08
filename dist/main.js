@@ -16,22 +16,38 @@
 * limitations under the License.
 */
 
-#include "stdlib/math/base/assert/is_negative_integerf.h"
-#include "stdlib/math/base/special/floorf.h"
-#include <stdbool.h>
+'use strict';
+
+// MODULES //
+
+var floorf = require( '@stdlib/math-base-special-floorf' );
+
+
+// MAIN //
 
 /**
 * Tests if a finite single-precision floating-point number is a negative integer.
 *
-* @param x    input value
-* @return     output value
+* @param {number} x - value to test
+* @returns {boolean} boolean indicating whether the value is a negative integer
 *
 * @example
-* #include <stdbool.h>
-*
-* bool out = stdlib_base_is_negative_integerf( -3.0f );
+* var bool = isNegativeIntegerf( -1.0 );
 * // returns true
+*
+* @example
+* var bool = isNegativeIntegerf( 0.0 );
+* // returns false
+*
+* @example
+* var bool = isNegativeIntegerf( 10.0 );
+* // returns false
 */
-bool stdlib_base_is_negative_integerf( const float x ) {
-	return ( stdlib_base_floorf( x ) == x && x < 0.0f );
+function isNegativeIntegerf( x ) {
+	return ( floorf( x ) === x && x < 0 );
 }
+
+
+// EXPORTS //
+
+module.exports = isNegativeIntegerf;

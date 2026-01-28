@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@esm/index.mjs';
+import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@v0.1.0-esm/index.mjs';
 ```
 
 #### isNegativeIntegerf( x )
@@ -98,7 +98,7 @@ bool = isNegativeIntegerf( 10.0 );
 <body>
 <script type="module">
 
-import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@esm/index.mjs';
+import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@v0.1.0-esm/index.mjs';
 
 var bool = isNegativeIntegerf( -5.0 );
 // returns true

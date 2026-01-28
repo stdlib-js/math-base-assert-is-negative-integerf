@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-assert-is-negative-integerf/tags). For example,
+
+```javascript
 import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@v0.1.0-esm/index.mjs';
 ```
 
@@ -98,7 +103,7 @@ bool = isNegativeIntegerf( 10.0 );
 <body>
 <script type="module">
 
-import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@v0.1.0-esm/index.mjs';
+import isNegativeIntegerf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-negative-integerf@esm/index.mjs';
 
 var bool = isNegativeIntegerf( -5.0 );
 // returns true

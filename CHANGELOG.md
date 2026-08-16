@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-06)
+## Unreleased (2026-08-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`681d960`](https://github.com/stdlib-js/stdlib/commit/681d96000d9adca941789637758d4f9eee0eeaeb) - **chore:** remove stray binary [(#14334)](https://github.com/stdlib-js/stdlib/pull/14334) _(by Philipp Burckhardt)_
 -   [`bdc08b0`](https://github.com/stdlib-js/stdlib/commit/bdc08b0c6f55af6b70149f21a8556ef7b0f57e68) - **docs:** fix TSDoc issues in two `@stdlib/math-base/assert` declarations [(#12463)](https://github.com/stdlib-js/stdlib/pull/12463) _(by Philipp Burckhardt)_
 -   [`1eee288`](https://github.com/stdlib-js/stdlib/commit/1eee288269d47dffe3b59766b0bb846089ad2b42) - **bench:** refactor to use string interpolation in `math/base/assert` [(#10133)](https://github.com/stdlib-js/stdlib/pull/10133) _(by Lokesh Ranjan)_
 
